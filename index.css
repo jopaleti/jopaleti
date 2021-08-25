@@ -1,0 +1,42 @@
+body{
+	background-color: blue;
+}
+
+.margin{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.margin{
+	/*margin-top: 50px;*/
+	/*margin-left: 150px;*/
+	/*margin-bottom: 50px;*/
+	/*margin-right: 50px;*/
+}
+
+
+.padding{
+	background-color: green;
+	width: 100px;
+	height: 100px;
+}
+
+.padding{
+	padding-top: 50px;
+	padding-left: 150px;
+	padding-bottom: 50px;
+	padding-right: 50px;
+}
+
+.btn{
+	margin-top: 50px;
+	margin-left: 50px;
+	padding: 5px 40px;
+	/*padding: top+left+bottom+right;*/
+	/*padding: top+bottom left+right;*/
+	/*padding: top left+right bottom;*/
+	/*padding: top right bottom left;*/
+}
